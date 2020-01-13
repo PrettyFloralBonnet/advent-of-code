@@ -6,3 +6,5 @@ From the [About page](https://adventofcode.com/2019/about):
 
 ### 2019
 The very first AoC event I took part in (yay!), with solutions in python.
+
+The list of puzzles is available [here](https://adventofcode.com/2019).
