@@ -140,7 +140,11 @@ def calculate_meta_fuel_all_modules(modules: List[int]) -> int:
     return fuel_all_modules
 
 
-if __name__ == '__main__':
+def main():
     fuel = calculate_fuel(ALL_MODULES)
     total_fuel = calculate_meta_fuel_all_modules(ALL_MODULES)
-    print(fuel, total_fuel)
+    print(fuel, total_fuel)  # 3216744 4822249
+
+
+if __name__ == '__main__':
+    main()
