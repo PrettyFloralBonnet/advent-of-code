@@ -44,9 +44,12 @@ def find_params(desired_output):
                 return noun, verb
 
 
-if __name__ == '__main__':
+def main():
     result = process_intcode(first=12, second=2)
-    print(result)  # 2692315
-
     first_param, second_param = find_params(19690720)
-    print(100 * first_param + second_param)  # 9507
+    result2 = 100 * first_param + second_param
+    print(result, result2)  # 2692315 9507
+
+
+if __name__ == '__main__':
+    main()
